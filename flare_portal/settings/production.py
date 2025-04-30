@@ -15,6 +15,7 @@ SESSION_COOKIE_SECURE = True
 # https://docs.djangoproject.com/en/stable/ref/settings/#csrf-cookie-secure
 CSRF_COOKIE_SECURE = True
 
+CORS_ALLOW_ALL_ORIGINS = True
 
 # CORS and CSRF settings
 INSTALLED_APPS += ["corsheaders"]
