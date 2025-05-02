@@ -13,7 +13,7 @@ whitenoise = "~5.2"
 dj-database-url = "~0.5"
 django-cors-headers = "3.13.0"
 django-redis = "~4.12"
-django-storages = { version ="~1.11", extras = ["boto3"] }
+django-storages = {extras = ["b2"], version = "^1.14.6"}
 django-referrer-policy = "~1.0"
 django-csp = "~3.7"
 scout-apm = "~2.18"
@@ -28,7 +28,7 @@ Pillow = "^8.1.1"
 Markdown = "3.1.1"
 Faker = "^8.1.2"
 jsmin = "^3.0.0"
-b2sdk = "^2.0.0"
+b2sdk = "^2.8.1"
 
 [tool.poetry.extras]
 gunicorn = ["gunicorn"]
@@ -83,5 +83,3 @@ exclude = '''
   )/
 )
 '''
-
-
