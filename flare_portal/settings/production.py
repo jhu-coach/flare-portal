@@ -47,7 +47,7 @@ AWS_S3_ADDRESSING_STYLE = "virtual"
 AWS_QUERYSTRING_AUTH = False
 AWS_DEFAULT_ACL = 'public-read'
 
-
+BASE_MEDIA_URL = os.environ.get("BASE_MEDIA_URL")
 
 
 
