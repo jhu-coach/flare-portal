@@ -44,6 +44,10 @@ AWS_S3_ENDPOINT_URL = os.environ.get("AWS_S3_ENDPOINT_URL")
 AWS_S3_REGION_NAME = os.environ.get('AWS_S3_REGION_NAME', 'auto')
 AWS_S3_ADDRESSING_STYLE = "virtual" 
 
+AWS_QUERYSTRING_AUTH = False
+AWS_DEFAULT_ACL = 'public-read'
+
+
 
 
 
