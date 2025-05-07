@@ -49,5 +49,8 @@ AWS_DEFAULT_ACL = 'public-read'
 
 BASE_MEDIA_URL = os.environ.get("BASE_MEDIA_URL")
 
+AWS_S3_CUSTOM_DOMAIN = os.environ.get("CLOUDFLARE_PUBLIC_URL")
+MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/"
+
 
 
